@@ -1,0 +1,55 @@
+Robi, si106, Instructor
+Abigael, si106, Learner
+Creag, si106, Learner
+Kirie, si106, Learner
+Rhythm, si106, Learner
+Tyelor, si110, Instructor
+Alishah, si110, Learner
+Hafiza, si110, Learner
+Kendall, si110, Learner
+Nikash, si110, Learner
+Maros, si206, Instructor
+Aaryn, si206, Learner
+Avesta, si206, Learner
+Gabriele, si206, Learner
+Jocelyn, si206, Learner
+
+
+---------
+INSERT INTO Course (title) VALUES ('si106');1
+INSERT INTO Course (title) VALUES ('si110');2
+INSERT INTO Course (title) VALUES ('si206');3
+---------
+INSERT INTO User (name) VALUES ('Robi'); 1    1  1
+INSERT INTO User (name) VALUES ('Abigael');2  1    0
+INSERT INTO User (name) VALUES ('Creag');3     1   0
+INSERT INTO User (name) VALUES ('Kirie');4    1    0
+INSERT INTO User (name) VALUES ('Rhythm');5    1   0
+INSERT INTO User (name) VALUES ('Tyelor');6    2     1
+INSERT INTO User (name) VALUES ('Alishah');7   2     0
+INSERT INTO User (name) VALUES ('Hafiza');8     2   0
+INSERT INTO User (name) VALUES ('Kendall');9    2    0
+INSERT INTO User (name) VALUES ('Nikash');10    2    0
+INSERT INTO User (name) VALUES ('Maros');11     3   1
+INSERT INTO User (name) VALUES ('Aaryn');12     3    0
+INSERT INTO User (name) VALUES ('Avesta');13    3     0
+INSERT INTO User (name) VALUES ('Gabriele');14  3     0
+INSERT INTO User (name) VALUES ('Jocelyn');15   3     0
+--------------
+INSERT INTO Member (user_id, course_id, role) VALUES (1,1,1);
+INSERT INTO Member (user_id, course_id, role) VALUES (2,1,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (3,1,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (4,1,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (5,1,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (6,2,1);
+INSERT INTO Member (user_id, course_id, role) VALUES (7,2,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (8,2,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (9,2,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (10,2,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (11,3,1);
+INSERT INTO Member (user_id, course_id, role) VALUES (12,3,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (13,3,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (14,3,0);
+INSERT INTO Member (user_id, course_id, role) VALUES (15,3,0);
+
+-----------
