@@ -1,5 +1,6 @@
 # C for Everyone
 A Coursera 4-Course Specialisation offered by <b> University of California Santa Cruz </b> | Taught by <b> Ira Pohl </b>
+
 Course URL: <a> https://www.coursera.org/specializations/coding-for-everyone</a>
 
 I completed 2 courses in this specialisation that covered coding in C.
