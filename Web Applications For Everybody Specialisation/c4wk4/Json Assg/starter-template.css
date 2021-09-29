@@ -1,0 +1,10 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+table, th, td {
+  border: 0.1rem solid rgba(0, 0, 0, 1);
+}
