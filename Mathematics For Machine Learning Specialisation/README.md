@@ -32,3 +32,6 @@ This specialisation aims to build an intuitive understanding in the underlying M
 - Dot Product and Inner Product
 - Orthogonal Projections
 - PCA Derivation
+
+
+Last Edited: 31 Mar 2021
