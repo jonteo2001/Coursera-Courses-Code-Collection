@@ -41,3 +41,7 @@ and the time and space complexities and tradeoffs for the operations when using 
 - Burrows-Wheeler Transform and Suffix Arrays
 - Knuth-Morris-Pratt Algorithm
 - Constructing Suffix Arrays and Suffix Trees
+
+
+
+Last Edited: 15 May 2021
