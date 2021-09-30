@@ -40,3 +40,6 @@ This specialization teaches the fundamentals of programming in Python 3. We will
 - PyTesseract and Optical Character Recognition, Open-Source Software, Jupyter Widgets
 - Computer Vision with OpenCV
 - Final Project
+
+
+Last Edit: 28 Mar 2021
