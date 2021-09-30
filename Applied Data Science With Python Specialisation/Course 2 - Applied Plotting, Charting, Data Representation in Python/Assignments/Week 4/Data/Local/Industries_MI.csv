@@ -1,0 +1,121 @@
+ID,Industry,Year,Workforce,Workforce MOE
+0,"Agriculture, Forestry, Fishing & Hunting",2018,88,51.66236541
+1,"Mining, Quarrying, & Oil & Gas Extraction",2018,50,52.49761899
+2,Construction,2018,728,166.0873264
+3,Manufacturing,2018,5226,502.3594331
+4,Wholesale Trade,2018,447,136.6199107
+5,Retail Trade,2018,4115,370.0283773
+6,Transportation & Warehousing,2018,755,178.6756839
+7,Utilities,2018,337,111.2205017
+8,Information,2018,1444,232.6649952
+9,Finance & Insurance,2018,999,174.4964183
+10,Real Estate & Rental & Leasing,2018,806,178.089865
+11,"Professional, Scientific, & Technical Services",2018,6628,498.8707247
+12,Management of Companies & Enterprises,2018,66,41.01219331
+13,Administrative & Support & Waste Management Services,2018,1252,233.430932
+14,Educational Services,2018,21177,898.4842792
+15,Health Care & Social Assistance,2018,9590,563.6328592
+16,"Arts, Entertainment, & Recreation",2018,1352,225.9668117
+17,Accommodation & Food Services,2018,4564,481.5402372
+18,"Other Services, Except Public Administration",2018,2161,296.2735223
+19,Public Administration,2018,988,196.458647
+0,"Agriculture, Forestry, Fishing & Hunting",2017,104,52.34500931
+1,"Mining, Quarrying, & Oil & Gas Extraction",2017,37,52.46903849
+2,Construction,2017,863,224.1539649
+3,Manufacturing,2017,5072,469.0938072
+4,Wholesale Trade,2017,501,150.8011936
+5,Retail Trade,2017,4262,387.1291774
+6,Transportation & Warehousing,2017,845,194.537914
+7,Utilities,2017,311,109.1237829
+8,Information,2017,1436,241.8470591
+9,Finance & Insurance,2017,1163,198.8416455
+10,Real Estate & Rental & Leasing,2017,859,175.5135322
+11,"Professional, Scientific, & Technical Services",2017,6416,479.7551459
+12,Management of Companies & Enterprises,2017,102,57.00877125
+13,Administrative & Support & Waste Management Services,2017,992,191.2302277
+14,Educational Services,2017,20095,915.9759822
+15,Health Care & Social Assistance,2017,9377,565.2548098
+16,"Arts, Entertainment, & Recreation",2017,1210,206.7849124
+17,Accommodation & Food Services,2017,4720,484.5957078
+18,"Other Services, Except Public Administration",2017,2102,288.5307609
+19,Public Administration,2017,978,192.2004162
+0,"Agriculture, Forestry, Fishing & Hunting",2016,114,58.41232747
+1,"Mining, Quarrying, & Oil & Gas Extraction",2016,33,42.57933771
+2,Construction,2016,972,294.7269923
+3,Manufacturing,2016,4786,381.1194039
+4,Wholesale Trade,2016,485,136.6930869
+5,Retail Trade,2016,3841,422.952716
+6,Transportation & Warehousing,2016,789,166.8831927
+7,Utilities,2016,288,98.23441352
+8,Information,2016,1428,220.9841623
+9,Finance & Insurance,2016,1148,179.6106901
+10,Real Estate & Rental & Leasing,2016,809,173.0809059
+11,"Professional, Scientific, & Technical Services",2016,6005,435.4090031
+12,Management of Companies & Enterprises,2016,66,46.75467891
+13,Administrative & Support & Waste Management Services,2016,953,177.8004499
+14,Educational Services,2016,20110,879.1729068
+15,Health Care & Social Assistance,2016,9221,606.0833276
+16,"Arts, Entertainment, & Recreation",2016,1115,210.0404723
+17,Accommodation & Food Services,2016,4716,529.7027468
+18,"Other Services, Except Public Administration",2016,1887,233.1115613
+19,Public Administration,2016,908,196.644349
+0,"Agriculture, Forestry, Fishing & Hunting",2015,81,48.7954916
+1,"Mining, Quarrying, & Oil & Gas Extraction",2015,29,34.525353
+2,Construction,2015,886,280.6082679
+3,Manufacturing,2015,4426,389.8743387
+4,Wholesale Trade,2015,595,155.56992
+5,Retail Trade,2015,3903,390.9130338
+6,Transportation & Warehousing,2015,700,165.0242406
+7,Utilities,2015,266,87.66413178
+8,Information,2015,1348,231.3266089
+9,Finance & Insurance,2015,1103,204.413796
+10,Real Estate & Rental & Leasing,2015,697,160.5895389
+11,"Professional, Scientific, & Technical Services",2015,5889,497.2574786
+12,Management of Companies & Enterprises,2015,57,42.44997055
+13,Administrative & Support & Waste Management Services,2015,920,186.4001073
+14,Educational Services,2015,19746,879.2070291
+15,Health Care & Social Assistance,2015,8850,594.0984767
+16,"Arts, Entertainment, & Recreation",2015,1134,203.0886506
+17,Accommodation & Food Services,2015,5011,487.312015
+18,"Other Services, Except Public Administration",2015,1823,233.3238093
+19,Public Administration,2015,881,183.4393633
+0,"Agriculture, Forestry, Fishing & Hunting",2014,66,47.01063709
+1,"Mining, Quarrying, & Oil & Gas Extraction",2014,30,42.42640687
+2,Construction,2014,852,262.1011255
+3,Manufacturing,2014,4311,409.3531483
+4,Wholesale Trade,2014,598,157.2672884
+5,Retail Trade,2014,3886,422.3280715
+6,Transportation & Warehousing,2014,613,141.8238344
+7,Utilities,2014,268,91.43850392
+8,Information,2014,1350,239.6330528
+9,Finance & Insurance,2014,1302,236.019067
+10,Real Estate & Rental & Leasing,2014,734,166.8112706
+11,"Professional, Scientific, & Technical Services",2014,5704,472.2001694
+12,Management of Companies & Enterprises,2014,31,35.4682957
+13,Administrative & Support & Waste Management Services,2014,802,165.1241957
+14,Educational Services,2014,20237,898.0656992
+15,Health Care & Social Assistance,2014,8691,554.8116798
+16,"Arts, Entertainment, & Recreation",2014,1015,223.0336298
+17,Accommodation & Food Services,2014,4958,555.2089697
+18,"Other Services, Except Public Administration",2014,2119,324.4271875
+19,Public Administration,2014,879,174.6138597
+0,"Agriculture, Forestry, Fishing & Hunting",2013,88,60.8358447
+1,"Mining, Quarrying, & Oil & Gas Extraction",2013,5,26.83281573
+2,Construction,2013,872,292.4824781
+3,Manufacturing,2013,4224,439.2197628
+4,Wholesale Trade,2013,583,182.7840256
+5,Retail Trade,2013,4012,433.8502046
+6,Transportation & Warehousing,2013,668,166.2347737
+7,Utilities,2013,241,83.45058418
+8,Information,2013,1446,238.9497855
+9,Finance & Insurance,2013,1397,230.0543414
+10,Real Estate & Rental & Leasing,2013,667,170.5813589
+11,"Professional, Scientific, & Technical Services",2013,5418,413.3594078
+12,Management of Companies & Enterprises,2013,19,29.06888371
+13,Administrative & Support & Waste Management Services,2013,912,185.2700731
+14,Educational Services,2013,19993,908.2956567
+15,Health Care & Social Assistance,2013,8181,542.2333446
+16,"Arts, Entertainment, & Recreation",2013,1229,287.8975512
+17,Accommodation & Food Services,2013,4756,542.0747181
+18,"Other Services, Except Public Administration",2013,2042,307.3759913
+19,Public Administration,2013,846,174.0028735
