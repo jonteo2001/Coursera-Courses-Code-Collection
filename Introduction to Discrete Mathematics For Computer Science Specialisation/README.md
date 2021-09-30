@@ -39,4 +39,5 @@ This specialisation aims to cultivate an understanding and appreciation for the 
 
 
 Last Edit (Course 1 and 2): 11 July 2020
+
 Last Edit (Course 3): 18 May 2021
