@@ -6,7 +6,7 @@ Taught by:
 - Michael Levin
 - Владимир Подольский
 
-Course URL: <a> </a>
+Course URL: <a>https://www.coursera.org/specializations/discrete-mathematics</a>
 
 Completed: 3 / 5
 ## Specialisation Content
