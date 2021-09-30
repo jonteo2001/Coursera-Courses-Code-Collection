@@ -36,3 +36,5 @@ This Specialization covers how to write syntactically correct HTML5 and CSS3, an
 ### Course 5 - Capstone
 - Creating a personal Portfolio
 - Other Useful stuff: Sticky Footers, Google Calender, Carousels, Font Awesome
+
+Last Edited: 20 Oct 2020
