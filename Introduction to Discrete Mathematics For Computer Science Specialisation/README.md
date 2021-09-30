@@ -35,3 +35,8 @@ This specialisation aims to cultivate an understanding and appreciation for the 
 - Graph Parameters: Graph Colouring, Cliques and Independent Sets, Ramsey Numbers, Vertex Cover,
 - Flows and Matchings: Networks, Flows and Cuts, Stable Matchings
 - Gale Shapley Algorithm 
+
+
+
+Last Edit (Course 1 and 2): 11 July 2020
+Last Edit (Course 3): 18 May 2021
