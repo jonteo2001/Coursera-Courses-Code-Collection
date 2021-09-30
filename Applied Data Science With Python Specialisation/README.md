@@ -27,3 +27,6 @@ Completed: 3 / 5
 - Supervised Machine learning: Overfitting and Underfitting, K-Nearest Neighbours, Least squares Linear Regression, Ridge, Lasso, Polynomial Regression, Logistic Regression, Support Vector Machines, Multi-Class Classification, Kernelised Support Vector Machines, Cross Validation, Decision Trees
 - Evaluation of Models: Model Evaluation and Selection, Confusion Matrices, Basic Evaluation Metrics, Classifier Decision Functions, Precision-recall and ROC Curves, Multi-Class Evaluation, Regression Evaluation
 - Supervised Learning Part II: Naive Bayes Classifiers, Random Forest, Gradient Boosted Decision Trees, Neural Networks, Data Leakage
+
+
+Last Edited: 20 May 2021
