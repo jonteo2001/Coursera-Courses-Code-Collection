@@ -1,0 +1,126 @@
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+    transform: translateY(-1.25em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOut{
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/*Styling for Navigation bar*/
+#navbar a, #navbar a:visited{
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: inherit;
+  border-radius: 3px;
+  color: rgba(255,255,255,0.5);
+
+}
+#navbar a:hover{
+  transition-property: color;
+  transition-duration: 1s;
+  color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+  text-decoration: none;
+
+}
+#navbar a.active{
+  transition-property: color;
+  transition-duration: 2s;
+  background-color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,1);
+}
+
+#navbar{
+  justify-content: center;
+}
+/*Styling for document body */
+body {
+  display: block;
+  padding-top: 4%;
+  padding-bottom: 2%;
+
+  margin-right: 2%;
+  margin-top: -2%;
+  text-align: justify;
+}
+/*Styling for Document Header */
+header{
+  display: block;
+  width: 101vw;
+  height: 35vh;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: #00203FFF; /*navy blue */
+}
+#header, #subtitle{
+  color: #ADEFD1FF; /* mint */
+  display: inline-block;
+  float: right;
+  width: 75%;
+}
+#subtitle{
+  font-size: 1rem;
+}
+#logo{ /*Logo*/
+  float: left;
+  display: inline-block;
+  width: 15vw;
+  margin-left: 5vw;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+/*Styling for Document Content*/
+section{
+  display: block;
+  width: 100vw;
+  padding: 4%;
+}
+/*Styling for the Details Tag*/
+details[open] p, details[open] table{
+  animation-name:fadeIn;
+  animation-duration: 1.5s;
+}
+details:not([open]) p, details:not([open]) table{
+  animation-name:fadeOut;
+  animation-duration: 1.5s;
+}
+details summary::-webkit-details-marker{
+  display: none; /*to hide the arrow at the details tag*/
+}
+details summary:after{
+  font-family:"Font Awesome 5 Free" ; font-weight: 900; content: "\f105";
+}
+details[open] summary:after{
+  font-family:"Font Awesome 5 Free"; font-weight: 900; content: "\f107";
+}
+/*Styling for Sign Up Form*/
+input:focus, textarea:focus{
+  background-color: rgba(175,238,238,0.10);
+}
+fieldset.inner{
+  display: block;
+  width: 70vw;
+  text-align: left;
+  margin-bottom: 4vh;
+}
+fieldset.outer{
+  display: block;
+  width: 80vw;
+  align-items: justify;
+}
+/*Miscellaneous Styling for WIDE SCREEN VIEW */
+#contact, #footer {
+  display: none;
+}

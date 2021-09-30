@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title> Jon's Tuition </title>
+  <!--font awesome CDN-->
+  <script src="https://kit.fontawesome.com/23461d50f1.js" crossorigin="anonymous"></script>
+  <!--Bootstrap 4 CSS CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- css file-->
+  <link rel= "stylesheet" href = "css/stylesheetv1.css">
+  <!-- js file -->
+  <script src = "js/details.js"></script> <!--For opening details tag upon window resize
+  AND the modification of the 3rd NAV item in the large screen view-->
+  <script src = "js/wsnavbar.js"></script> <!--For the change in location in the navigation bar upon window resize-->
+  <script src = "js/windowresize.js"></script> <!--The script to call all above functions upon window resize-->
+</head>
+<body onload = WindowResize() onresize = WindowResize()>
+  <header>
+    <h1 id = "header"> Hi there!</h1>
+    <p id = "subtitle"> My name is Jonathan and I am currently serving in the army.
+      To combat the shrinking of the brain due to the brainlessness of the
+      military, I have decided to start giving tuition part-time. </p>
+    <img id = "logo" src = "../imgs/logo.png" alt = "Logo"/>
+    <nav id = "navbar" class= "navbar fixed-bottom navbar-dark bg-dark">
+      <!--<a class="navbar-brand" href="#">Bottom navbar</a>-->
+      <!--</button>-->
+          <a id ="aboutme" class=" nav-item" href="index.html"> <span>  <i class="fas fa-child"></i> </span> About Me</a>
+          <a class= "nav-item active" id = "whattoexpect" href = "whattoexpect.html"><span> <i class="fas fa-chalkboard-teacher"></i></span> What To Expect </a>
+          <a class= " nav-item" id = "contact" href = "contact.html"> <span><i class="fas fa-edit"></i></span> Contact Me & <br> Sign Up </a>
+    </nav>
+  </header>
+  <section id = "whattoexpect_">
+  <h2> What To Expect </h2>
+  <hr>
+  <details id = "expectations">
+    <summary> What To Expect From Lessons with Me? <span><i class="fas fa-info-circle fa-2x"></i></span></summary>
+    <p>
+      I enjoy Mathematics and the study of it in Singapore.
+      You can argue that it is because I am good at it,
+      but I have taught many of my classmates throughout the years in school
+      and helped them grasp concepts which they never thought they could.
+      This ability to help my peers in the past has given me the confidence to believe that
+      I can help you with Mathematics during the
+      two years of teaching you part-time.<br><br>
+
+      I am a curious person who enjoys the art of exploratory learning.
+      When I explain concepts, I attempt to bring together many different ideas
+      and ask questions that will trigger insight and deepen understanding.
+      These questions aided me during my period of study,
+      which may get a bit too mentally exhausting at times.
+      However, I am cognisant that for tuition in small groups in an informal
+      setting is targeted to the calibres of the individual or individuals,
+      and I promise to fulfil this primary purpose before I attempt to expand
+      the mathematical horizons of the already unwilling.<br><br>
+
+      We all know this – that students who just graduated and now are giving
+      tuition to their juniors who need it – cannot charge high hourly rates.
+      It is, arguably, the best value of money for you vis-a-vis going to some
+      official tuition centre outside. But perhaps a more robust incentive for
+      tuition by ex-students aside from this economic lobang would be that we,
+      the students of yesterday, would be the most effective in conveying
+      concepts and ideas, motivation and encouragement to you or your child,
+      whom we ultimately treat as a peer or a friend.<br><br>
+    </p>
+  </details>
+   <hr class = "end-detail">
+  <details id = "tui-size">
+    <summary>Private & Group Tuition <span> <i class="fas fa-user-friends fa-2x"></i><i class="fas fa-user-friends fa-2x fa-flip-horizontal"></i></span> </summary>
+      <p>
+        I am generally open to both private or group size (size &#8804; 4) tuition. However,
+        it is worthy to note the difference in purpose between the two: <br><br>
+
+        Private tuition: Private tuition is necessary if you or your child
+         is performing significantly behind their peers. The benefits of such
+         would be (a) undivided attention, (b) customised tutoring. However,
+         this may produce dependency on the tutor and may affect the speed of
+         the class.I would only recommend private tuition if you plan to get
+         tuition close to your examinations or if you are falling behind in class.
+         <br><br>
+        Group Size (Size &#8804; 4) tuition: Especially in Mathematics, small group tuition helps allow
+         students to (a) engage in healthy competition with their peers, and it
+         (b) generates a more lively class with group discussions. Most
+         importantly, in the long run, it will allow you to be more independent
+         in your learning which is necessary for a subject like Mathematics.<br><br>
+      </p>
+  </details>
+  <hr class = "end-detail">
+</section>
+
+<section id = "contact_">
+  <h3> INTERESTED? </h3>
+  <p> Contact me via <br>
+      Telegram: @jonteo2001 <br>
+      Email: teo.junrui.jonathanedward<br>@gmail.com
+  </p>
+</section>
+<section id = "footer">
+    <h6>Thank you!</h6>
+    <p> Tuition group sizes of 1 to 4 are okay! Fees will be discussed when you contact me in person. Have a nice day! </p>
+</section>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--VALIDATED BY W3C.ORG-->

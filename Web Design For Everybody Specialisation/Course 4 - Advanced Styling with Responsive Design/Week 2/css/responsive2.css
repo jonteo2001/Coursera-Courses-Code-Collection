@@ -1,0 +1,124 @@
+/*-----------------------SCROLL DOWN TO SEE MY CODE--------------------------*/
+body{
+	margin: 1%;
+	padding:1%;
+	background-color: rgba(0,0,255,.2);
+	font-size: 100%;
+	min-width: 500px;
+/*-----------------------SCROLL DOWN TO SEE MY CODE--------------------------*/
+}
+header, footer{
+  background-color:#0066FF;
+  padding: 1%;
+  margin: 1%;
+}
+header h1{
+	font-size: 3rem;
+	color:rgba(0,0,0,.7);
+	text-align: center;
+	color:rgba(255,0,0,.7);;
+
+}
+
+section{
+  margin:1%;
+    padding:1%;
+}
+
+nav a{
+	display:block;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 35px;
+	text-decoration: none;
+	padding: 2%;
+	margin: 1%;
+}
+
+
+.myClass{
+	margin: 0em 1em;
+	padding:.75em;
+	border: 1px solid black;
+	border-radius: .25%;
+
+	/* Safari and Chrome */
+	-webkit-column-count:3;
+	-moz-column-count: 3;
+	column-count:3;
+
+}
+ol{
+	list-style:upper-roman;
+	margin:1em;
+}
+img{
+	display: none;
+}
+
+footer{
+	clear: both;
+	text-align:center;
+	text-transform: uppercase;
+}
+/*-----------------------MY CODE STARTS FROM HERE-------------------------*/
+/*-----------------------MY CODE STARTS FROM HERE-------------------------*/
+/*-----------------------MY CODE STARTS FROM HERE-------------------------*/
+/*-----------------------MY CODE STARTS FROM HERE-------------------------*/
+@media all and (min-width: 700px){ /*media query for large view*/
+	img{
+		display: inline-block;
+		float: right;
+		margin: 1% 2% 1% 3%;
+		width: 10vw;
+	}
+	h1:after{
+		content: "(I guess...)";
+	}
+	#left{
+		display: inline-block;
+		width: 20vw;
+		padding-left: 2vw;
+		margin-left: 2vw;
+		height: 40vh;
+		float: left;
+	}
+	#center{
+		display: inline-block;
+		width: 60vw;
+		padding-right: 3vw;
+		float: right;
+		margin-right: 3vw;
+
+	}
+}
+@media print and (min-width: 500px){ /*media query for print view*/
+	header h1{
+		font-size: 1em;
+		color: #000000; /*h1 heading font-size set to 1em*/
+	}
+	header,footer,body{
+		background-color: #FFFFFF;
+	}
+	nav a{ /*to remove the styling of the links*/
+		background-color: none;
+		border: none;
+		text-align: center;
+		border-radius: none;
+		text-decoration: underline; /* to obtain underlining of the links*/
+		padding: 0%;
+		margin: 1%; /*now links are closer together*/
+	}
+	section{
+		display: block;
+		padding: 1%;
+	}
+	.myClass{ /*to remove the columns*/
+		-webkit-column-count:1;
+		-moz-column-count: 1;
+		-o-column-count: 1;
+		-ms-column-count: 1;
+		column-count:1;
+	}
+}

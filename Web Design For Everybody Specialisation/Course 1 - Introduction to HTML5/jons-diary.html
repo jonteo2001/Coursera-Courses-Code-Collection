@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+<!--metadata-->
+<head>
+  <meta charset = "UTF-8">
+  <title>Jon's Diary</title>
+</head>
+<!--Header of document - consisting of name and links to different 4 areas in site-->
+<body>
+<header>
+  <h1> Jonathan Teo </h1>
+  <nav>
+    <a href = "#S1">One</a>
+    <a href = "#S2">Two</a>
+    <a href = "#S3">Three</a>
+    <a href = "#Sfoot">See Page End</a>
+  </nav>
+</header>
+<!--Section on Food - consisting of a h2 tag and an unordered list of food-->
+<section>
+  <h2 id = "S1"> Favorite Foods </h2>
+  <ul>
+    <li>Chocolate</li>
+    <li>Fried Chicken</li>
+    <li>Salmon</li>
+    <li>Hokkien Mee</li>
+  </ul>
+</section>
+<!--Section on Achievements - consisting of a h2 tag and 3 progress bars-->
+<section>
+  <h2 id = "S2" > Achievements </h2>
+  <p>
+    <label for="course">Progress in this course (100%)</label>
+    <progress id ="course" value = 100 max = 100></progress> <br>
+    <label for="spec">Progress in the Specialization capstone (20%)</label>
+    <progress id ="spec" value = 20 max = 100></progress> <br>
+    <label for="goals">Progress in life goals (10%)</label>
+    <progress id ="goals" value = 10 max = 100></progress>
+    <!--<progress id ="course" value = 100 max = 100></progress>
+    <progress id ="spec" value = 20 max = 100></progress>
+    <progress id ="goals" value = 10 max = 100></progress>-->
+
+    <!--<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>-->
+  </p>
+</section>
+<!--Section on More About Me - consisting of a CLOSED details tag...
+and a summary of my childhood-->
+<section>
+  <h2 id = "S3">More About Me</h2>
+  <details>
+    <summary> My Childhood </summary>
+      <p>
+      I grew up in Singapore. I am fortunate enough to be born into a upper middle
+      class household. Through the helicopter parenting that I received,
+      I had a busy childhood filled with a myriad of experiences - from playing
+      sports to studying shapes to attending piano lessons - which I would be eternally
+      grateful for.
+      </p>
+  </details>
+</section>
+<!--end of document, footer - consisting of an image reference, text,
+and a link to the Intro to Web Design page -->
+<footer id = "Sfoot">
+  <p>
+    <img src = "http://www.intro-webdesign.com/images/newlogo.png"
+    alt = "Logo of WD4E"/> This page was created by Jonathan Teo &amp; Collen van Lent.
+    To learn more about web design,
+    visit <a href= "http://www.intro-webdesign.com">Intro to Web Design</a>.
+  </p>
+</footer>
+</body>
+</html>

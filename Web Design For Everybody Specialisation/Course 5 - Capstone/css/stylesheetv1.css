@@ -1,0 +1,246 @@
+/*SMALL SCREEN VIEW*/
+/*Adding Animation */
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+    transform: translateY(-1.25em);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOut{
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+/*Styling for Navigation bar*/
+#navbar a, #navbar a:visited{
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: inherit;
+  border-radius: 5%;
+  color: rgba(255,255,255,0.5);
+
+}
+#navbar a:hover{
+  transition-property: color;
+  transition-duration: 1s;
+  color: rgba(255,255,255,1);
+  border-color: rgba(255,255,255,1);
+  text-decoration: none;
+
+}
+#navbar a.active{
+  transition-property: color;
+  transition-duration: 2s;
+  background-color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,1);
+}
+
+#navbar{
+  justify-content: space-around;
+}
+.nav-item i{
+  display: block;
+}
+#contact::before{
+  font-family:"Font Awesome 5 Free" ; font-weight: 900; content: "\f044";
+}
+/*Styling for document body */
+body {
+  display: block;
+  padding-top: 4%;
+  padding-bottom: 2%;
+
+  margin-right: 2%;
+  margin-top: -2%;
+  text-align: justify;
+}
+/*Styling for Document Header */
+header{
+  display: block;
+  width: 101vw;
+  height: 35vh;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: #00203FFF; /*navy blue */
+}
+#header, #subtitle{
+  color: #ADEFD1FF; /* mint */
+  display: inline-block;
+  float: right;
+  width: 75%;
+}
+#subtitle{
+  font-size: 1em;
+}
+#logo{ /*Logo*/
+  float: left;
+  display: inline-block;
+  width: 15vw;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+/*Styling for Document Content*/
+section{
+  display: block;
+  width: 100vw;
+  padding: 4%;
+}
+/*Styling for the Details Tag*/
+details[open] p, details[open] table{
+  animation-name:fadeIn;
+  animation-duration: 1.5s;
+}
+details:not([open]) p, details:not([open]) table{
+  animation-name:fadeOut;
+  animation-duration: 1.5s;
+}
+details summary::-webkit-details-marker{
+  display: none; /*to hide the arrow at the details tag*/
+}
+details summary:after{
+  font-family:"Font Awesome 5 Free" ; font-weight: 900; content: "\f105";
+}
+details[open] summary:after{
+  font-family:"Font Awesome 5 Free"; font-weight: 900; content: "\f107";
+}
+/*Styling for Sign Up Form*/
+input:focus, textarea:focus{
+  background-color: rgba(175,238,238,0.10);
+}
+fieldset.inner{
+  display: block;
+  width: 70vw;
+  text-align: left;
+  margin-bottom: 4vh;
+}
+fieldset.outer{
+  display: block;
+  width: 80vw;
+  align-items: justify;
+}
+#child_name, #parent-layer-two, #group-layer-two, #edu-layer-two, .error_field{
+  /*initialising form interactivity to hide additional layers*/
+  display: none;
+}
+.end-field{
+  width: 40%;
+  text-align: left;
+  margin-left: 0;
+}
+.qn-header{
+  font-weight: bold;
+  font-family: Arial, inherit;
+}
+/*Miscellaneous Styling for SMALL SCREEN VIEW */
+#contact_, #footer {
+  display: none;
+}
+#tfoot{
+  font-size: 0.7em;
+  font-weight:lighter;
+}
+
+@media all and (min-width: 750px){ /*WIDE SCREEN VIEW*/
+  /*Styling for Navigation Bar*/
+  #navbar{
+    width: inherit;
+    padding-left:2vw;
+    display: block;
+    background-color: inherit;
+    margin: inherit; margin-left: -2vw;
+    padding-left: 35vw;
+  }
+  #navbar a, #navbar a:visited{
+    display: inline-block;
+    border:0.2em solid #FFFFFF66;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+
+  }
+  .nav-item i{
+    display: inline;
+    float: left;
+    padding-right: 1em;
+  }
+
+
+  /*Styling for Document Header */
+  #logo{ /*Logo*/
+    float: left;
+    display: inline-block;
+    width: 9vw;
+    margin: 0 auto;
+    margin-top: -5vw;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  /*Styling for Document Content*/
+  #aboutme_, #whattoexpect_, #ioi_form {
+    display: inline-block;
+    float: left;
+    width: 70vw;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+  #contact_{
+    display: inline-block;
+    float: right;
+    text-align: inherit;
+    background-color: #ADD8E6; /*light blue*/
+    width: 25vw;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    margin-right:1%;
+    border-radius:2%;
+    padding-right: 1%;
+  }
+  #contact_ h3{
+    font-family: "Brush Script MT", Arial;
+    font-weight: bold;
+  }
+  #contact_ p{
+    width: inherit;
+    font-weight: lighter;
+    text-align: justify;
+  }
+  /*Styling for the Details Tag*/
+
+  /*Styling for Sign Up Form*/
+  #contactinfo_{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 25vw;
+    margin-top: 0;
+    padding: 0;
+  }
+  #ioi_form{
+    display: inline-block;
+    float: right;
+    text-align: left;
+    width: 65vw;
+    margin-top: -8vh; margin-left: 1vw;
+    padding: 0; padding-left: 12vw;
+  }
+  #form-title{
+    font-size: 1.7em;
+    font-weight: 500;
+  }
+  #header, #subtitle{
+    color: #ADEFD1FF; /* mint */
+    display: inline-block;
+    float: right;
+    width: 85vw;
+    padding-bottom: 1%;
+  }
+}

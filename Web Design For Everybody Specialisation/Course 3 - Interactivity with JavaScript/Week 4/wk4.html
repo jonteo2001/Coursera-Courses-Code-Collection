@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en">
+ <head>
+  <meta charset="UTF-8">
+    <title>Shipping and Billing</title>
+    <style>
+        input{
+          border:1px solid black;
+	      }
+        input:focus{
+	   background-color: #E6E6E6;
+        }
+	      fieldset{
+ 	   margin-bottom: 4%;
+	      }
+    </style>
+    <script>
+    function billingFunction(){
+      // defining variables before the if-else loop
+      var address = document.getElementById("shippingName").value;
+      var code = document.getElementById("shippingZip").value;
+      var bill_address = document.getElementById("billingName");
+      var bill_code =   document.getElementById("billingZip");
+      if (document.getElementById("same").checked){
+        //console.log(address); console.log(code); //to debug
+        bill_code.value =  "" + code + "";
+        bill_code.style.opacity= "0.55"; bill_code.readOnly = true;
+        bill_address.value = "" + address + "";
+        bill_address.style.opacity="0.55"; bill_address.readOnly = true;
+        //the above 4 lines of code prefills the code & address when box is checked,
+        //darkens the field colour (opacity)
+        //makes text uneditable (readonly)
+        //in a way to tell the user that this text has already been filled in.
+      }
+      else{
+        // such that user can unselect the option and the pre-fill function is removed
+        //console.log("removing fields"); // to debug
+        bill_code.value = ""; bill_address.value = ""; //replaces field with an empty string
+        bill_code.style.opacity = "1"; bill_address.style.opacity = "1";
+        bill_address.readOnly = false; bill_code.readOnly = false;
+        //The reverse of what happens on tops when the box is checked occurs
+        //when the box is unchecked.
+      }
+    }
+    </script>
+  </head>
+  <body>
+	<h1>JavaScript Homework</h1>
+        <p>Add the JavaScript code needed to enable auto-complete on this form.  Whenever the checkbox is checked, the code should automatically copy the values from Shipping Name and Shipping Zip into the Billing Name and Billing Zip.  If the checkbox is unchecked, the Billing Name and Billing Zip should go blank.</p>
+
+		<form>
+        <fieldset>
+	  <legend>Shipping Information</legend>			  <label for ="shippingName">Name:</label>		  <input type = "text" name = "Name" id = "shippingName" required><br/>
+
+	  <label for = "shippingzip">Zip code:</label>		  <input type = "text" name = "zip" id = "shippingZip" pattern = "[0-9]{5}" required><br/>
+        </fieldset>
+	<input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>
+        <label for = "same">Is the Billing Information the Same?</label>
+        <fieldset>
+ 	  <legend>Billing Information</legend>			  <label for ="billingName">Name:</label>		  <input type = "text" name = "Name" id = "billingName" required><br/>
+
+          <label for = "billingzip">Zip code:</label>		  <input type = "text" name = "zip" id = "billingZip" pattern = "[0-9]{5}" required><br/>
+	</fieldset>
+
+	<input type = "submit" value = "Verify"/>
+    </form>
+  </body>
+</html>

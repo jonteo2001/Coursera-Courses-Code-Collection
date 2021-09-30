@@ -1,0 +1,105 @@
+/*code for assignment 1 & 2 starts here*/
+/*code for assignment 3 starts at line 61*/
+header{
+  display: block;
+  padding: 25px; /*padding is similar at all sides*/
+  background-image: url("imgs/flywheel.jpg");
+  /*only works after placing img into css file*/
+} /*header with background image*/
+h1{
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 120%;
+  text-transform: uppercase;
+}
+h2{
+  color:rgb(0,0,0); /*text is black */
+} /*text is no longer fully capitalised*/
+nav a{
+  display: inline-block;
+  color: rgb(0,0,0); /*text colour is black*/
+  text-align: center; /*text is in the centre of the image*/
+  background: rgba(255,255,255,0.3); /*background is translucent when inactive*/
+  text-decoration:none; /*remove the underline of the link*/
+  border-radius: 5px; /*rounded borders of the link*/
+  margin: 10px; /*to add some unclickable space between the links*/
+  padding: 14px 60px ; /*width of each tab*/
+}
+.active{
+  background: rgba(255,255,255,1); /*background becomes white*/
+  color: rgb(0,0,255); /*text becomes blue*/
+}
+.left{ /*class = left*/
+  display: inline-block;
+  float:left;
+  background-color: #708238; /*olive green*/
+  width: 25%;
+  margin: -1px; /*to eliminate whitespace between header block and this green block*/
+  padding: 10px;
+}
+aside img{
+  display: block;
+  width: 90%;
+  margin: 0 auto; /*to center the image first*/
+  margin-top: 10px;
+  margin-bottom: 20px; /*THEN add empty space between the pictures*/
+  border: 2px solid rgb(0,0,0); /*black*/
+  box-sizing: border-box; /*still not too clear as to what this does*/
+}
+
+.right{
+  display: inline-block;
+  float:right;
+  width: 72%; /*achieved by trial error to eliminate whitespace*/
+  margin-top: -15px; /*to eliminate whitespace*/
+}
+
+/*------------code for assignment 3 starts here----------------*/
+/*------------code for assignment 3 starts here----------------*/
+/*------------code for assignment 3 starts here----------------*/
+/*------------code for assignment 3 starts here----------------*/
+table{
+  width: 80%; /*width of table within acceptable range*/
+  padding-bottom: 5%;
+  margin: 0 auto; /*center the table*/
+}
+tr:nth-of-type(n+2){
+  opacity: 0.8;
+  /*Value of n = 0 by default. By using this functionality,
+  the header will have an opacity of 1 since it is row 1,
+   while the table cells will all have an opacity of 0.8.
+   The opacity of the table cells will hence change
+   when they are hovered over.*/
+}
+tr:nth-of-type(n+2):hover{
+  opacity: 1; /*see note above*/
+}
+th, td{ /*common properties in heading and cells*/
+  font-family: Calibri, Geneva, Candara;
+  padding: 2% 0% 2% 0%; /* top right bottom left*/
+  box-sizing: border-box;
+  font-size: 60%;
+  text-align: center; /*to center text in 2nd & 3rd column*/
+  text-shadow: 2px rgb(0,0,0);
+}
+th{ /*for the row of headings*/
+  color: #FFFFFF; /*white*/
+  font-weight: bolder;
+  text-shadow: 0.20px 0.20px rgb(255,255,255);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px; /*wow thank god for this functionality!*/
+  background-image: -webkit-linear-gradient(rgba(30, 130, 76,1) 90%,rgba(0, 230, 64, 1) 10%);
+  background-image: -o-linear-gradient(rgba(30, 130, 76,1) 90%,rgba(0, 230, 64, 1) 10%);
+  background-image: -moz-linear-gradient(rgba(30, 130, 76,1) 90%,rgba(0, 230, 64, 1) 10%);
+  background-image: linear-gradient(rgba(30, 130, 76,1) 90%,rgba(0, 230, 64, 1) 10%);
+  /*from dark green to bright green, default colour to be dark green*/
+  /*accomodated different browser capabilities using prefixes*/
+  background-color: rgba(30, 130, 76,1); /*to be used if image cannot be used*/
+}
+td{ /*for the row of table cells*/
+  background-color: rgba(200, 247, 197); /*light green*/
+}
+th:first-child, td:first-child{
+  text-align: left; /*for 1st column text is aligned left*/
+  padding-left: 10px;
+}

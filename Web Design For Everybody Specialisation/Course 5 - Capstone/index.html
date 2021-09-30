@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "utf-8"/>
+  <!--BOOTSTRAP 4 STUFF -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title> Jon's Tuition </title>
+  <!--font awesome CDN-->
+   <script src="https://kit.fontawesome.com/23461d50f1.js" crossorigin="anonymous"></script>
+  <!--Bootstrap 4 CSS CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- css file-->
+  <link rel= "stylesheet" href = "css/stylesheetv1.css">
+  <!-- js file -->
+  <script src = "js/details.js"></script> <!--For opening details tag upon window resize
+  AND the modification of the 3rd NAV item in the large screen view-->
+  <script src = "js/wsnavbar.js"></script> <!--For the change in location in the navigation bar upon window resize-->
+  <script src = "js/windowresize.js"></script> <!--The script to call all above functions upon window resize-->
+</head>
+<body onload = WindowResize() onresize = WindowResize()>
+  <header>
+    <h1 id = "header"> Hi there!</h1>
+    <p id = "subtitle"> My name is Jonathan and I am currently serving in the army.
+      To combat the shrinking of the brain due to the brainlessness of the
+      military, I have decided to start giving tuition part-time. </p>
+    <img id = "logo" src = "imgs/logo.png" alt = "Logo"/> <!--Logo-->
+    <nav id = "navbar" class="navbar fixed-bottom navbar-dark bg-dark">
+          <a id ="aboutme" class="nav-item active" href="index.html"> <span>  <i class="fas fa-child"></i> </span> About Me</a>
+          <a class="nav-item" id = "whattoexpect" href = "whattoexpect.html"><span> <i class="fas fa-chalkboard-teacher"></i></span>  What To Expect </a>
+          <a class= "nav-item" id = "contact" href = "contact.html"> <span><i class="fas fa-edit"></i></span> Contact Me & <br> Sign Up </a>
+    </nav>
+  </header>
+  <section id = "aboutme_">
+    <h2> About Me </h2>
+    <hr>
+    <details id = "intro">
+      <summary>About Me &nbsp; <span><i class="fas fa-child fa-2x"></i></span> </summary>
+      <p class = "intro_" id = "intro_"> So yes, my name is Jonathan. I am an alumnus of Dunman High School
+        and have studied in the Integrated Programme. I have a deep interest in Mathematics,
+        and an inquisition which helped grow my interest in it when I learnt more about the
+        interconnectedness of the topics in higher education.
+        I am extremely new to this tuition thingy basically, but after many years of being
+        one of the more popular consultants of math questions by my peers in school has given
+        me an intangible experience of explaining and rationalising concepts with people of
+        differing aptitudes in Mathematics.<br>
+     </p>
+    </details>
+    <hr class = "end-detail">
+    <details id = "purpose">
+      <summary> My Purpose &nbsp;
+        <span class = "fa-layers fa-fw">
+          <i class="fas fa-clipboard-check fa-layers"></i>
+          <span class = "fa-layers-text" data-fa-transform = "shrink-8 down-3 left-10" style = "font-weight:900"> Q.E.D. </span>
+        </span>
+
+      </summary>
+      <p id = "purpose_">
+        I intend to teach Mathematics to Secondary School students and students in Junior College
+        (Lower Secondary Math (S1-S2), E Math(S3-S4), A Math (S3-S4),
+        Mathematics at H1 or H2 Level (JC)), of differing levels of calibre. I don't mind teaching
+        Physics or Chemistry as well, but I personally feel that I cannot give as much insight as I can
+        with Mathematics. <br> <br>
+        As for the period that I intend to teach, I aim to teach part-time from
+        December 2020 to November 2022, at an hourly rate which I will discuss with you in person
+        (but come on, I'm just starting out, how expensive can it be right? HAHA). <br>
+      </p>
+    </details>
+    <hr class = "end-detail">
+    <details id = "results">
+      <summary> My Academic Results &nbsp;<span><i class="fas fa-user-graduate fa-2x"></i> <i class="fas fa-user-graduate fa-2x"></i> </span></summary>
+        <p id = "results_">
+        Possibly the least important section of all, but at the same time it is arguably the only
+        universally recognisable metric that I have at this point that I have been getting stellar
+        results for math throughout my years in school. But just for formality and legitimacy purposes,
+        here are my grades for the more significant examinations in my secondary and JC years.
+        </p>
+        <table>
+          <thead> <tr> <th> GCE "A" Level Results </th> </tr> </thead>
+          <tbody>
+          <tr> <td>H2 Mathematics</td><td> A </td></tr>
+          </tbody>
+        </table>
+        <table>
+          <thead> <tr> <th> "O" LEVEL "EQUIVALENT*" </th> </tr> </thead>
+          <tbody>
+          <tr> <td> Mathematics 1 (E Math Equivalent)</td><td> A+ (>80% overall)</td></tr>
+          <tr> <td> Mathematics 2 (A Math Equivalent)</td><td> A+ (>80% overall)</td></tr>
+          </tbody>
+        </table>
+        <p id = "tfoot">
+          *I studied in the Integrated Programme (IP) track, which means I did not do GCE O Levels. These are my Sec 4 End of Year Results.
+        </p>
+      </details>
+      <hr class = "end-detail">
+      <br><br>
+  </section>
+
+  <section id = "contact_">
+    <h3> INTERESTED?</h3>
+    <p> Contact me via <br>
+        Telegram: @jonteo2001 <br>
+        Email: teo.junrui.jonathanedward<br>@gmail.com
+    </p>
+  </section>
+  <section id = "footer">
+      <h6>Thank you!</h6>
+      <p> Tuition group sizes of 1 to 4 are okay! Fees will be discussed when you contact me in person. Have a nice day! </p>
+  </section>
+<!--BOOTSTRAP Javascript CDN -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+  <!--- VALIDATED BY W3C.ORG NO ERRORS, BUT WARNINGS REGARDIING THE TABLE HEADER-->

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title> Jon's Tuition </title>
+  <!--font awesome CDN-->
+  <script src="https://kit.fontawesome.com/23461d50f1.js" crossorigin="anonymous"></script>
+  <!--Bootstrap 4 CSS CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- css file-->
+  <link rel= "stylesheet" href = "css/stylesheetv1.css">
+  <!-- js file -->
+  <script src = "js/details.js"></script> <!--For opening details tag upon window resize
+  AND the modification of the 3rd NAV item in the large screen view-->
+  <script src = "js/wsnavbar.js"></script> <!--For the change in location in the navigation bar upon window resize-->
+  <script src = "js/windowresize.js"></script> <!--The script to call all above functions upon window resize-->
+  <!-- js files -->
+  <script src = "../js/form.js"></script> <!--For the sign up form-->
+  <!--font awesome JS CDN-->
+  <script src="https://kit.fontawesome.com/23461d50f1.js" crossorigin="anonymous"></script>
+</head>
+<body onload = WindowResize() onresize = WindowResize()>
+  <header>
+    <h1 id = "header"> Hi there!</h1>
+    <p id = "subtitle"> My name is Jonathan and I am currently serving in the army.
+      To combat the shrinking of the brain due to the brainlessness of the
+      military, I have decided to start giving tuition part-time. </p>
+    <img id = "logo" src = "../imgs/logo.png" alt = "Logo"/>
+    <nav id = "navbar" class="navbar fixed-bottom navbar-dark bg-dark">
+          <a id ="aboutme" class="nav-item" href="index.html"> <span>  <i class="fas fa-child"></i> </span> About Me</a>
+          <a class="nav-item" id = "whattoexpect" href = "whattoexpect.html"><span> <i class="fas fa-chalkboard-teacher"></i></span> What To Expect </a>
+          <a class= "nav-item active" id = "contact" href = "contact.html"> <span><i class="fas fa-edit"></i></span> Contact Me & <br> Sign Up </a>
+    </nav>
+  </header>
+  <!-- LOGO -->
+<section id = "contactinfo">
+<h2> Contact Me & Sign Up </h2>
+<hr>
+  <section id = "contactinfo_">
+    <h3> Contact Information </h3>
+    <table>
+      <tbody>
+        <tr><td> <span class = "Tele"><i class="fas fa-paper-plane"></i></span></td> <td>Telegram Username: @jonteo2001 </td> </tr>
+        <tr><td> <span><i class="fas fa-envelope-square"></i></span> </td> <td> Email address: teo.junrui.jonathanedward@gmail.com </td> </tr>
+      </tbody>
+    </table>
+  </section>
+</section>
+<section id = "ioi_form">
+<form name = "ioi_form_">
+  <fieldset id = "entire-form" class = "outer"> <!--outer fieldset-->
+    <legend id = "form-title"> Indicate your Interest here! </legend>
+    <!--PART 1: CONTACT INFORMATION-->
+    <fieldset id = "contact-info" class = "inner">
+      <legend> Your Particulars </legend>
+      <div class = "fname" onchange = validateName()>
+        <label for = "fname" class = "qn-header" >Your Name: </label>
+        <input type = "text" id = "fname" name = "fname" value = "" placeholder = "Severus Snape" required>
+        <p id = "error_fname" class = "error_field" ></p> <br>
+      </div>
+      <hr class = "end-field">
+      <div class = "number" onchange = validateMobile()>
+        <label for = "number" class = "qn-header" > Your Mobile: </label>
+        <input type = "text" id = "number" name = "number" value = "" placeholder = "91234567" required>
+        <p id = "error_number" class = "error_field"></p><br>
+      </div>
+      <hr class = "end-field">
+      <div class = "parent" onchange = Parent()>
+        <input type = "checkbox" id = "parent" name = "parent">
+        <label for = "parent" class = "qn-header" > &nbsp; Check this box if you are a parent signing up on behalf of your child. </label> <br>
+        <label  id = "parent-layer-two" for = "parent"> Enter your child's name: &nbsp; </label>
+        <input type = "text" id = "child_name" name = "child_name" value = "" placeholder = "Your Child's Name"> <br>
+      </div>
+      <hr class = "end-field">
+      <div class = "group" onchange = Group()>
+        <input type = "checkbox" id = "group" name = "group">
+        <label for = "group" class = "qn-header" > Check this box if you are signing up for group tuition. </label> <br>
+        <div id = "group-layer-two">
+          <p class = "qn-header"> Are you... </p>
+          <input  type = "checkbox" id = "friends" name = "friends">
+          <label for = "friends" > Signing up to be in a group with your friends. </label>
+          <br>
+          <input type = "checkbox" id = "any_group" name = "any_group">
+          <label for = "any_group"> Signing up to be part of any group. </label>
+          <br>
+        </div> <!--end group layer 2 div-->
+      <hr class = "end-field">
+      </div>
+    </fieldset> <!--end fieldset for contact-info-->
+    <br>
+    <!--PART 2: INDICATE PREFERENCES-->
+    <fieldset id = "misc-info" class = "inner">
+    <legend> Individual Preferences </legend>
+      <div id = "edu" onchange = Edu()>
+      <label class = "qn-header" for = "edu-layer-one"> Enter your year of schooling this year:</label><br>
+      <select id = "edu-layer-one">
+        <option value = "SEC1"> Secondary 1 Express</option>
+        <option value = "SEC2"> Secondary 2 Express</option>
+        <option value = "SEC3"> Secondary 3 Express</option>
+        <option value = "SEC4"> Secondary 4 Express</option>
+        <option value = "JC1"> JC1 </option>
+        <option value = "JC2"> JC2 </option>
+      </select>
+      <div id = "edu-layer-two">
+        <p class = "qn-header"> What Math would you like me to teach? </p>
+          <input type = "checkbox" id = "math-type-1" name = "math-type-1" value = "E-Math" class = "Sec-Math">
+          <label for = "math-type-1" class = "Sec-Math" > E Math </label> <br>
+          <input type = "checkbox" id = "math-type-2" name = "math-type-2" value = "A-Math" class = "Sec-Math">
+          <label for = "math-type-2" class = "Sec-Math"> A Math </label> <br>
+          <input type = "checkbox" id = "math-type-3" name = "math-type-3" value = "H1-Math" class = "JC-Math">
+          <label for = "math-type-3" class = "JC-Math"> H1 Mathematics </label> <br>
+          <input type = "checkbox" id = "math-type-4" name = "math-type-4" value = "H2-Math" class = "JC-Math">
+          <label for = "math-type-4" class = "JC-Math"> H2 Mathematics </label> <br>
+      </div>
+      <hr class = "end-field">
+    </div> <!--end edu-->
+      <p id = "pref" class = "qn-header"> Which of these places would you like to have tuition at? </p>
+      <input type = "checkbox" id = "loc1" name = "loc1" value = "TheirHome">
+      <label for = "loc1"> Your own Home </label> <br>
+      <input type = "checkbox" id = "loc2" name = "loc2" value = "MyHome">
+      <label for = "loc2"> My Home</label> <br>
+      <input type = "checkbox" id = "loc3" name = "loc3" value = "Elsewhere">
+      <label for = "loc3"> Somewhere else (like Starbucks or smth) </label><br>
+      <br>
+      <hr class = "end-field">
+    </fieldset> <!--end fieldset misc-info -->
+    <!--PART 3: form submission-->
+    <p id = "others" class = "qn-header"> Any other questions: </p> <br>
+    <textarea rows = "20" cols = "50" placeholder = "I'm literally just starting out,
+    it's only normal to have questions for me!"></textarea> <br><br>
+    <p id = "disclaimer"> Note that submitting this form does NOT automatically sign you up for class,<br>
+    confirmation would only happen after you have interacted with me personally. </p>
+    <input id = "Submit" type = "Submit" value = "Submit"> <br><br>
+    <hr>
+  </fieldset> <!--end outer fieldset-->
+</form>
+</section>
+<section id = "footer">
+    <h6>Thank you!</h6>
+    <p> Tuition group sizes of 1 to 4 are okay! Fees will be discussed when you contact me in person. Have a nice day! </p>
+</section>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!--VALIDATED BY W3C.ORG-->
