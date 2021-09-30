@@ -3,7 +3,7 @@ A Coursera 4-Course Specialisation offered by <b> University of California Santa
 
 Course URL: <a> https://www.coursera.org/specializations/coding-for-everyone</a>
 
-I completed 2 courses in this specialisation that covered coding in C.
+Completed: 2 / 4
 ## Specialisation Content
 ### Course 1 - C For Everyone: Programming Fundamentals
 #### Course Content
