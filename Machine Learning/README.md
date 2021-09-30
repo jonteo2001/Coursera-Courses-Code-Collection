@@ -2,7 +2,7 @@
 Cousera Course offered by <b>Stanford University</b> | Taught by <b>Andrew Ng</b>
 
 Course URL: <a>https://www.coursera.org/learn/machine-learning</a>
-
+Completed : 05/2020
 ### Course Content
 - Introduction to Machine Learning: Supervised and Unsupervised Learning, Linear Regression with One Variable, Parameter Learning, Linear Algebra
 - Multivariate Linear Regression: Gradient Descent for Multiple Variables, Feature Scaling, Learning Rates, Features and Polynomial Regression
