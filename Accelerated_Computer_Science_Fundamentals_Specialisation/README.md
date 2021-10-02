@@ -37,5 +37,5 @@ Website: <a>https://www.coursera.org/specializations/cs-fundamentals </a>
 - Hash Tables: Unordered Map Project in C++
 - Graphs: Graph Search Project
 
-
+Note: For the moment I cannot find my coursework for Courses 1 and 2.
 Last Edited: 09/04/2021
